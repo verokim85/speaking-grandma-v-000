@@ -3,7 +3,7 @@
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
 def speak_to_grandma(phrase)
-elsif phrase == "I LOVE YOU GRANDMA!"
+if phrase == "I LOVE YOU GRANDMA!"
   return "I LOVE YOU TOO PUMPKIN!"
     if phrase = phrase.upcase
     return "NO, NOT SINCE 1938!"
