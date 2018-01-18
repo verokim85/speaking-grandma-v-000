@@ -2,7 +2,7 @@
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
-def speak_to_grandma(phrase)
+def speak_to_grandma("phrase")
   if phrase == phrase.uppercase
     return "HUH?! SPEAK UP, SONNY!"
   elsif "#{phrase}" == "I LOVE YOU GRANDMA!"
